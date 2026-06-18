@@ -190,7 +190,8 @@ Slave를 DUT로 두고, Driver가 **가상 master 신호(sclk, mosi, ss_n)** 를
         ├── spi_slave_template.sv
         ├── spi_slave_test.sv
         └── tb_spi_slave.sv
-
+└── docs
+     └── 260617_UVM_SPI_I2C_Verification_권동오.pptx
 ```
 
 ---
