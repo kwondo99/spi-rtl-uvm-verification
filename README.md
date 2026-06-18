@@ -206,6 +206,21 @@ make coverage
 ```
 
 ---
+## 고찰
+
+UVM 기반 검증의 전체 흐름(Sequence → Driver → Monitor → Scoreboard 구조)을 익혔다.
+
+Coverage의 정의와 작성법(coverpoint, cross)을 배웠다.
+
+Factory 개념을 이해하여 컴포넌트의 생성·재정의 방식을 익혔다.
+
+Phase 개념(build_phase, connect_phase, run_phase)을 이해했다.
+
+UVM 구조와 Factory 개념이 처음에는 복잡했지만, 반복 실습을 통해 디버깅과 재사용 측면에서 효율적임을 체감했다.
+
+Phase 개념이 익숙해지니 각 컴포넌트가 언제 무엇을 수행해야 하는지 명확해져 전체 흐름을 잡기 수월했다.
+
+Port의 종류와 연결 방식은 아직 더 익숙해질 시간이 필요하다고 느꼈다.
 
 ## Author
 
