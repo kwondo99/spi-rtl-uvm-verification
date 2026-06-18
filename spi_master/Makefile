@@ -36,5 +36,5 @@ clean :
 	@echo "clear run...."
 
 coverage : 
-	verdi -dbdir simv.daidir/ -ssf spi_slave_tb.fsdb -cov -covdir coverage.vdb/
+	verdi -dbdir simv.daidir/ -ssf spi_master_tb.fsdb -cov -covdir coverage.vdb/
 	@echo "report coverage"
